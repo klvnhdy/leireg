@@ -4,174 +4,257 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Leireg - Studio</title>
+  <title>Leireg Studio</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <link href="assets/img/LEIREG.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/logo_leireg.PNG" rel="icon">
+  <link href="assets/img/logo_leireg.PNG" rel="apple-touch-icon">
 
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/css/custome.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
 
+  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
 <body class="index-page">
 
-  <header id="header" style="background-color: #FFFFFF!important; color:#000000; padding:0xp; height: 10vh;" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html" class="d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" width="100vw" height="auto" alt="" style="margin-top: 5vh;">
-        <!-- <h1 class="sitename">Leireg</h1> -->
-      </a>
+  <header id="header" class="header fixed-top">
+    <div class="branding d-flex align-items-cente">
 
-      <nav id="navmenu" class="navmenu" style="color: #000000!important;">
-        <ul>
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#galery">Galery</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#product">Product</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <div>
           
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+        </div>
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo_leireg.PNG" style="height: 15vh;" alt="">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#home" class="active">Home<br></a></li>
+            <li><a href="#galery">Galery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list" style="font-size: 7vh;"></i>
+        </nav>
+
+      </div>
+
     </div>
+
   </header>
 
   <main class="main">
-    <section id="home" class="new-section" style="background-color: black!important;">
-      <div class="row">
-        <div class="col-12 col-md-12 col-lg-4" style="padding-top: 20vh;">
-          <img src="assets/img/LEIREG.png" style="width: 40vw!important;" alt="">
-          <div class="container" style="padding: 3vw;">
-            <div class="row" data-aos="fade-in" data-aos-delay="100">
-              <div class="col-12 container text-center" style="background-color: white; padding: 1vw; border-radius: 5vh;"> 
-                <a class="cta-btn align-middle" href="https://wa.me/6285846265961?text=Hii,%20Gerriel%20leireg%20disini.%20.%20.%0Asilakan%20isi%20data%20untuk%20reservasi%20%0A%0ANama%20:%20" style="color: black !important;">Booking</a>
-              </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section accent-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5 justify-content-between">
+          <div class="col-lg-3 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Booking</a>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-8" style="padding-top: 10vh;">
-          <!-- <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/"> -->
-          <div id="slider">
-            <figure>
-              <img src="assets/img/slider_1.png" style="width: 60vw!important;" alt="">
-              <img src="assets/img/slider_2.png" style="width: 60vw!important;" alt="">
-              <img src="assets/img/slider_3.png" style="width: 60vw!important;" alt="">
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="galery" class="call-to-action pricing dark-background" style="height: 100vh;padding-top: 10vh!important; padding-bottom: 5vh!important;">
+          <div class="col-lg-9 order-1 order-lg-2">
+            <div class="container">
 
-      <img src="assets/img/galery.png" alt="">
+              <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 3000,
+                    "autoplay": {
+                      "delay": 1000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    },
+                    "breakpoints": {
+                      "320": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 40
+                      },
+                      "480": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 60
+                      },
+                      "640": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 80
+                      },
+                      "992": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 120
+                      }
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide"><img src="assets/img/slider_1.png" class="img-fluid" alt=""></div>
+                  <div class="swiper-slide"><img src="assets/img/slider_2.png" class="img-fluid" alt=""></div>
+                  <div class="swiper-slide"><img src="assets/img/slider_3.png" class="img-fluid" alt=""></div>
+                </div>
+              </div>
       
-    
-       
-    </section>
-    <section id="services" class="new-section" >
-      <img src="assets/img/service.png" class="img-fluid" alt="">
-    </section>
-    <section id="product"class="call-to-action pricing dark-background" style="height: 100vh;padding-top: 10vh!important; padding-bottom: 5vh!important;">
-
-      <img src="assets/img/product.png" class="img-fluid" alt="">
-
-    </section>
-    <section id="galery" class="call-to-action pricing dark-background" style="height: 100vh;">
-      <img src="assets/img/galery.png" alt="">
-     
-       
-    </section>
-    <!-- <section id="contact" class="call-to-action section dark-background new-section">
-      <img src="assets/img/bg_booking.jpg" alt="">
-
-      <div class="row">
-        
-        </div>
-        <div class="col-12" style="height: 50vh; background-color: yellow;"></div>
-            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=437&amp;height=305&amp;hl=en&amp;q=leireg studio&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki Incredibox</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:305px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:305px;}.gmap_iframe {height:305px!important;}</style></div>
+            </div>
+          </div>
         </div>
       </div>
+    </section><!-- /Hero Section -->
 
-    </section> -->
-    <section id="contact" class="call-to-action pricing dark-background" style="padding-top: 10vh!important; padding-bottom: 5vh!important;">
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
-      <img src="assets/img/bg_booking.jpg" alt="">
-        <div class="container">
-          <div class="row gy-4">
+      <div class="container">
 
-            <div class="col-lg-3 col-12 col-md-6 col-xs-8" data-aos="zoom-in" data-aos-delay="100" style="margin-right:5vw;background-image: url('assets/img/booking_1.jpeg'); background-repeat: no-repeat;background-size: cover;    border-radius: 10px;height: 50vh;">
-              <div class="">
-               <center>
-                <a href="https://wa.me/6285722970776?text=Hii,%20Yuga%20leireg%20disini.%20.%20.%0Asilakan%20isi%20data%20untuk%20reservasi%20%0A%0ANama%20:%20" class="buy-btn" style="position: absolute;bottom: 1vh;left: 20%;">Booking Now</a>
-               </center>
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-12 col-md-6 col-xs-8" data-aos="zoom-in" data-aos-delay="100" style="background-image: url('assets/img/booking_2.jpeg'); background-repeat: no-repeat;background-size: cover;    border-radius: 10px;height: 50vh;">
-              <div class="">
-               <center> 
-                <a href="https://wa.me/6282316100333?text=Hii,%20Regi%20leireg%20disini.%20.%20.%0Asilakan%20isi%20data%20untuk%20reservasi%20%0A%0ANama%20:%20" class="buy-btn" style="position: absolute;bottom: 1vh;left: 20%;">Booking Now</a>
-               </center>
-              </div>
-            </div>
-  
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-12">
+          <center>
+            <img src="assets/img/service.png" alt="" class="img-fluid">
+          </center>
           </div>
         </div>
-    </section><!-- /Call To Action Section -->
-    <section >
-      <div class="row" style="background: #FFFFFF; height: 50vh; width: 100vw; padding: 2vh;">
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=437&amp;height=305&amp;hl=en&amp;q=leireg studio&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki Incredibox</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:305px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:305px;}.gmap_iframe {height:305px!important;}</style></div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="row">
-            <div class="col-12">
-              <h4>Addres</h4>
-              <hr>
-                <a href="https://maps.app.goo.gl/7Esm9cjyWZqvEuq27">
-                  Jl. Cijagra No.51 A, bandung, Kec. Buahbatu, Kota Bandung, Jawa Barat 40265
-                </a>
-              <h4 style="margin-top:5vh;">Following Us</h4>
-              <hr>
-              <a href="https://www.tiktok.com/@leireg.studio?_t=8r6cOxNrEEH&_r=1" style="margin-right: 1vh;"><i class="bi bi-tiktok"></i></a>
-              <a href="https://www.instagram.com/leireg.studio?igsh=dndrY2Q2MGpldmpu" style="margin-right: 1vh;"><i class="bi bi-instagram"></i></a>
-              <a href="https://open.spotify.com/playlist/72HfgKJcrM6VowkXptP4UE?si=TTgs-ljKTJSDsBqYGyT01g&pi=a-9yvoUdaGSIqr" ><i class="bi bi-spotify"></i></a>
-            </div>
-          </div>
-         
-        </div>
-        <div class="col-12 col-md-4 col-lg-4">  
-          <div class="row">
-            <div class="col-12">
-              <h4>Opening Hour</h4>
-              <hr>
-                Monday - Sunday
-                10:00 - 20:00
-            </div>
-          </div>
-         
-        </div>
+
       </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="galery" class="portfolio section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-12">
+          <center>
+            <img src="assets/img/galery.png" alt="" class="img-fluid">
+          </center>
+          </div>
+        </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <section id="product" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-12">
+          <center>
+            <img src="assets/img/product.png" alt="" class="img-fluid">
+          </center>
+          <center class="btn-orders">
+            <a href="https://wa.me/6282316100333?text=Hii,%20Regi%20leireg%20.%20.%0ASaya ingin Reservasi%20%0A%0ANama%20:%20%0ATanggal%20:" class="btn btn-primary-custome " > <h4 style="color: #FFFFFF!important; ">  <i class="bi bi-whatsapp"></i>  Order Now </h4> </a>
+          </center>
+          </div>
+        </div>
+
+      </div>
+
     </section>
+
+    <!-- Team Section -->
+    <section id="contact" class="team section" style="background-image: url('assets/img/bg_booking.jpg'); background-size: cover;">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+           
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member" style="background-image: url('assets/img/booking_1.jpeg'); background-size: cover;">
+              <div alt="" style="height: 40vh; width: 35vw;"> 
+
+              </div>
+              <center>
+                <a href="https://wa.me/6285722970776?text=Hii,%20Yuga%20leireg%20.%20.%0ASaya ingin Reservasi%20%0A%0ANama%20:%20%0ATanggal%20:" class="btn btn-primary-custome " style="position: relative;"> <i class="bi bi-whatsapp"></i> Booking </a>
+              </center>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member" style="background-image: url('assets/img/booking_2.jpeg'); background-size: cover;">
+              <div alt="" style="height: 40vh; width: 35vw;"> 
+              </div>
+              <center>
+                <a href="https://wa.me/6282316100333?text=Hii,%20Regi%20leireg%20.%20.%0ASaya ingin Reservasi%20%0A%0ANama%20:%20%0ATanggal%20:" class="btn btn-primary-custome " style="position: relative;"> <i class="bi bi-whatsapp"></i> Booking </a>
+              </center>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
   </main>
 
-  
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=437&amp;height=305&amp;hl=en&amp;q=leireg studio&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki Incredibox</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:305px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:305px;}.gmap_iframe {height:305px!important;}</style></div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.tiktok.com/@leireg.studio?_t=8r6cOxNrEEH&_r=1" style="margin-right: 1vh;"><i class="bi bi-tiktok"></i></a>
+              <a href="https://www.instagram.com/leireg.studio?igsh=dndrY2Q2MGpldmpu" style="margin-right: 1vh;"><i class="bi bi-instagram"></i></a>
+              <a href="https://open.spotify.com/playlist/72HfgKJcrM6VowkXptP4UE?si=TTgs-ljKTJSDsBqYGyT01g&pi=a-9yvoUdaGSIqr" ><i class="bi bi-spotify"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Opening Hour</h4>
+          <ul>
+            <li><p>Monday - Sunday 10:00 - 20:00</p></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Address</h4>
+          <p> <a href="https://maps.app.goo.gl/7Esm9cjyWZqvEuq27">
+            Jl. Cijagra No.51 A, bandung, Kec. Buahbatu, Kota Bandung, Jawa Barat 40265
+          </a></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Leireg Studio</span> <strong class="px-1 sitename">2024</strong> </p>
+    </div>
+
+  </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -180,19 +263,16 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-  <!-- Main JS File -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/custome.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  
+
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
